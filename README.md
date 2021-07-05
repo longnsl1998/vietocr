@@ -1,3 +1,2 @@
-docker build -t vietocr:latest .
-
-docker run -d --name ekyc-ocr -v D:/Docker/ekyc/vietocr/models:/app/models -e MODEL_PATH=/app/models -p 9000:8000 vietocr:latest
+KQ train OCR 
+https://docs.google.com/document/d/1esAoxyotBWNNYe6fRTzLkmdhmG9dqwsaXYvm21c3xtw/edit?usp=sharing
