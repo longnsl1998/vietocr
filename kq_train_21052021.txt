@@ -1,0 +1,27 @@
+ 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cpu batch_size 8 kq :ter: 108000 - valid loss: 0.658 - acc full seq: 0.7885 - acc per char: 0.9411 21/05/2021 train GPU batch_size 32 kq: iter: 038000 - valid loss: 0.649 - acc full seq: 0.6562 - acc per char: 0.8817
+
+	train cp

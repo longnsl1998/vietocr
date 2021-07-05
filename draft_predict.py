@@ -10,17 +10,17 @@ import cv2
 config = Cfg.load_config_from_file('config_seq2seq.yml')
 dataset_params = {
     'name':'hw',
-    'data_root':'/home/fdm/Desktop/chungnph/vietocr/Annotation',
-    'train_annotation':'train.txt',
-    'valid_annotation':'valid.txt'
+    'data_root':'/home/longhn',
+    'train_annotation':'/home/longhn/Anotation/train.txt',
+    'valid_annotation':'/home/longhn/Anotation/valid.txt'
 }
 
 params = {
          'print_every':200,
          'valid_every':10*200,
           'iters':200000,
-          'checkpoint':'checkpoint/Name_1803(add_12kname_140kgenname)_seq2seq.pth',
-          'export':'checkpoint/Name_1803(add_12kname_140kgenname)_seq2seq.pth',
+          'checkpoint':'checkpoint/smartdoc_seq2seq.pth',
+          'export':'checkpoint/smartdoc_seq2seq.pth',
           'metrics': 10000000,
           'batch_size': 32
          }
@@ -45,6 +45,7 @@ print(config)
 # print(s)
 
 trainer = Trainer(config, pretrained=False)
+trainer.config.save('config.yml')
 trainer.val()
 
 #seq2seq

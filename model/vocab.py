@@ -17,6 +17,7 @@ class Vocab():
         self.i2c[3] = '*'
 
     def encode(self, chars):
+        #print([self.go] + [self.c2i[c] for c in chars] + [self.eos])
         return [self.go] + [self.c2i[c] for c in chars] + [self.eos]
     
     def decode(self, ids):

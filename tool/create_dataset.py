@@ -49,12 +49,12 @@ def createDataset(outputPath, root_dir, annotation_path):
     cache = {}
     cnt = 0
     error = 0
-    
     pbar = tqdm(range(nSamples), ncols = 100, desc='Create {}'.format(outputPath)) 
     for i in pbar:
         imageFile, label = annotations[i]
         imagePath = os.path.join(root_dir, imageFile)
-
+        # if annotations[i][1] =='':
+        #     print(annotations[i])
         if not os.path.exists(imagePath):
             error += 1
             continue
@@ -62,7 +62,6 @@ def createDataset(outputPath, root_dir, annotation_path):
         with open(imagePath, 'rb') as f:
             imageBin = f.read()
         isvalid, imgH, imgW = checkImageIsValid(imageBin)
-
         if not isvalid:
             error += 1
             continue
@@ -89,6 +88,7 @@ def createDataset(outputPath, root_dir, annotation_path):
 
     if error > 0:
         print('Remove {} invalid images'.format(error))
-    print('Created dataset with %d samples' % nSamples)
+
+    print('Done')
     sys.stdout.flush()
 
